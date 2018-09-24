@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Locations</title>
-    <link rel="stylesheet" href="locations.css">
-    <link rel="icon" href="https://popeyes.com/wp-content/themes/popeyes_wcag/favicon.ico" type="image/x-ico">
-  </head>
-  <body>
-    <nav class="nav">
-      <img class="nav--logo" src="assets/logos/logo-square.png" alt="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Locations</title>
+  <link rel="stylesheet" href="locations.css">
+  <link rel="icon" href="https://popeyes.com/wp-content/themes/popeyes_wcag/favicon.ico" type="image/x-ico">
+</head>
+
+<body>
+  <nav class="nav">
+    <img class="nav--logo" src="assets/logos/logo-square.png" alt="">
+
+
+
+
+
+
+
     </nav>
 
-    <section class="locations">
-      <h1 class="locations--heading">Locations</h1>
+  <section class="locations">
+    <h1 class="locations--heading">Locations</h1>
 
-      <div class="grid-container">
-        <figure>
+    <div class="container">
+      <div class="left">
+        <figure class="red-border">
           <h3>Mooresville, NC</h3>
           <address class="">379 W. Plaza Dr. <br>Mooresville, NC 28117</address>
           <a href="tel:7046960442">704-696-0442</a>
         </figure>
-        <figure>
+        <figure class="red-border">
           <h3>Concord, NC</h3>
           <address class="">1489 Concord Parkway N <br>Concord, NC 28025</address>
           <a href="tel:7049717560">704-971-7560</a>
@@ -31,6 +41,8 @@
           <address class="">2446 Cherry Rd. <br>Rock Hill, SC 29732</address>
           <a href="tel:8039803942">803-980-3942</a>
         </figure>
+      </div>
+      <div class="center">
         <figure>
           <h3>Charlotte, NC</h3>
           <address class="">3318 Wilkenson Blvd. <br>Charlotte, NC 28208</address>
@@ -48,12 +60,14 @@
           <address class="">4050 N. Tryon St. <br>Charlotte, NC 28206</address>
           <a href="tel:7045970459">704-597-0459</a>
         </figure>
-        <figure>
+      </div>
+      <div class="right">
+        <figure class="red-border">
           <h3>Gastonia, NC</h3>
           <address class="">3430 Franklin Blvd. <br>Gastonia, NC 28056</address>
           <a href="tel:7048667470">704-866-7470</a>
         </figure>
-        <figure>
+        <figure class="red-border">
           <h3>Hickory, NC</h3>
           <address class="">2455 Hwy 70 East <br>Hickory, NC 28602</address>
           <a href="tel:8283040052">828-304-0052</a>
@@ -64,22 +78,25 @@
           <a href="tel:7046840136">704-684-0136</a>
         </figure>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="picnic">
-      <img class="picnic--image" src="assets/images/catering.jpg" alt="">
-    </section>
+  <section class="picnic">
+    <!-- <img class="picni-image" src="assets/images/catering.jpg" alt=""> -->
+  </section>
 
-    <footer class="footer">
-      <img class="footer--logo" src="assets/logos/logo.svg" alt="">
-      <div class="content"></div>
-      <figure class="links">
-        <div class="links">
+  <footer class="footer">
+    <img class="footer--logo" src="assets/logos/logo.svg" alt="">
+    <div class="content">
+      <figure class="content--links">
+        <div class="content--links_nav">
           <a href="http://company.popeyes.com/?_ga=2.48786662.1549795577.1537791647-1172355427.1537791647">Company</a>
+          <span>|</span>
           <a href="http://company.popeyes.com/careers?_ga=2.52503656.1549795577.1537791647-1172355427.1537791647">Careers</a>
+          <span>|</span>
           <a href="http://company.popeyes.com/contact/?_ga=2.52503656.1549795577.1537791647-1172355427.1537791647">Contact Us</a>
         </div>
-        <p>TM & &copy; 2018 Popeyes Louisana Kitchen, Inc. All Rights Reserved</p>
+        <p class="legal">TM & &copy; 2018 Popeyes Louisana Kitchen, Inc. All Rights Reserved</p>
         <div class="social">
           <a href="https://www.facebook.com/PopeyesLouisianaKitchen"><img src="assets/icons/facebook-logo-button.svg" alt=""></a>
           <a href="https://twitter.com/popeyeschicken"><img src="assets/icons/twitter-logo-button.svg" alt=""></a>
@@ -88,7 +105,9 @@
         </div>
       </figure>
       <img class="content--logo"src="assets/logos/la-entertainment-logo.svg" alt="">
-    </footer>
+  </div>
+  </footer>
 
-  </body>
+</body>
+
 </html>
